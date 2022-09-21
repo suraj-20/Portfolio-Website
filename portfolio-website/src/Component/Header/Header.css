@@ -1,0 +1,51 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 4rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0 , 1 , 1 , 0.5);
+}
+
+.header .name  {
+    margin-right: 12rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    color: rgb(94, 92, 92);
+}
+
+.header .name i {
+    margin-right: 0.5rem;
+    font-size: 2rem;
+    position: relative;
+    top: 0.2rem;
+}
+
+.header .name:hover,
+.header .name i:hover {
+    color: #c26e14;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    margin-right: 2rem;
+    font-weight: bold;
+    color: rgb(66, 65, 65);
+}
+
+.navbar ul li a:hover {
+    color: #1714c2;
+    padding-bottom: 0.1rem;
+    border-bottom: 3px solid #1714c2;
+}
