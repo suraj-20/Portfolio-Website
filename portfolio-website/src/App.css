@@ -9,7 +9,6 @@
   list-style-type: none;
   outline: none;
   border: none;
-  text-transform: capitalize;
   transition: all 0.2s linear;
 }
 
@@ -31,9 +30,6 @@ body {
 }
 
 
-.App {
-  text-align: center;
-}
 
 
 @media (prefers-reduced-motion: no-preference) {

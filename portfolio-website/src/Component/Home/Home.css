@@ -1,0 +1,86 @@
+.home {
+    height: 100vh;
+}
+
+.home .bg-image {
+    height: 100%;
+    background-image: url("../../Assets//bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    position: absolute;
+    top: 13rem;
+    left: 6rem;
+}
+
+.content h2 {
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 1rem;
+}
+
+.content h2 span {
+    color: #369092;
+}
+
+.content p {
+    font-size: 2rem;
+    margin: 1.2rem 0 2rem 0;
+    font-weight: 600;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+}
+
+.content p span {
+    color: #c82f2f;
+}
+
+.content .about-btn {
+    padding: 0.7rem 2rem;
+    border-radius: 2rem;
+    background-color: #010f8b;
+    color: #fff;
+}
+
+.content i {
+    margin-left: 0.3rem;
+}
+
+.content span:hover {
+    margin-right: 0.6rem;
+}
+
+.social-icons {
+    position: absolute;
+    top: 34rem;
+    left: 6rem;
+    display: inline-flex;
+}
+
+.icons {
+    display: inline-flex;
+}
+
+.icons .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.3rem;
+    height: 4rem;
+    width: 4rem;
+    background-color: #000;
+    border-radius: 2rem;
+}
+
+.icons ul li a i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+/* 
+.icons:hover {
+    color: #fff;
+    background-color: #0685da;
+} */
+

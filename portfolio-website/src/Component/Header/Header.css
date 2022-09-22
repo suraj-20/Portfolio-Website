@@ -11,10 +11,10 @@
     align-items: center;
     justify-content: space-around;
     background-color: rgba(255, 255, 255);
-    box-shadow: 0 0 10px rgba(0 , 1 , 1 , 0.5);
+    box-shadow: 0 0 10px rgba(0, 1, 1, 0.5);
 }
 
-.header .name  {
+.header .name {
     margin-right: 12rem;
     font-size: 1.5rem;
     font-weight: 900;
@@ -48,4 +48,104 @@
     color: #1714c2;
     padding-bottom: 0.1rem;
     border-bottom: 3px solid #1714c2;
+}
+
+.bars {
+    display: none;
+}
+
+
+@media (max-width:768px) {
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        width: 100%;
+        height: 4rem;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(255, 255, 255);
+        box-shadow: 0 0 10px rgba(0, 1, 1, 0.5);
+    }
+
+    .header .name {
+        margin-right: 0%;
+        margin-left: 0.9rem;
+        font-size: 1.3rem;
+        font-weight: 800;
+    }
+
+    .header .name i {
+        margin-right: 0.3rem;
+        font-size: 1.9rem;
+    }
+
+    .header .name:hover,
+    .header .name i:hover {
+        color: #c26e14;
+    }
+
+    .navbar ul li {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+        position: fixed;
+        top: 1rem;
+        right: 2rem;
+        font-size: 1.6rem;
+    }
+
+    .bars:hover {
+        color: #1714c2;
+    }
+
+    .mobile-navbar {
+        display: block;
+        position: fixed;
+        top: 4rem;
+        height: 16rem;
+        width: 90%;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        background-color: #ffffff;
+        box-shadow: 0 5px 10px rgba(50, 53, 53, 0.5);
+    }
+
+    .mobile-navbar ul li {
+        display: flex;
+    }
+
+    .mobile-navbar ul li a {
+        margin-left: 2rem;
+        margin-top: 1rem;
+        font-weight: bold;
+        color: rgb(66, 65, 65);
+    }
+
+    .mobile-navbar ul li a:hover {
+        color: #1714c2;
+        padding-bottom: 0.1rem;
+        border-bottom: 3px solid #1714c2;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:452px) {
+    .mobile-navbar {
+        display: block;
+        position: fixed;
+        top: 4rem;
+        height: 16rem;
+        width: 83%;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        background-color: #ffffff;
+        box-shadow: 0 5px 10px rgba(50, 53, 53, 0.5);
+    }
 }

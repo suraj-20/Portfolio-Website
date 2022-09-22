@@ -1,18 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../Header/Header.css'
 import Home from '../Home/Home';
 
 function Header() {
+
+    const [ showLinks, setShowLinks ] = useState(false);
 
     return (
         <>
             <div className='header'>
                 <a href='#' className='name'><i class="fa-brands fa-react"></i>Suraj</a>
 
-                <div className='navbar'>
+                <div className={showLinks ? 'navbar mobile-navbar' : 'navbar'}>
                     <ul>
                         <li>
-                            <a href='#home' >Home</a>
+                            <a className='active' href='#home' >Home</a>
                         </li>
                         <li>
                             <a href='#about'>About</a>
@@ -30,6 +32,10 @@ function Header() {
                             <a href='#contact'>Contact</a>
                         </li>
                     </ul>
+
+                    <div className='bars'>
+                        <i class="fa-solid fa-bars" onClick={() => setShowLinks(!showLinks)}></i>
+                    </div>
                 </div>
             </div>
             <Home />
