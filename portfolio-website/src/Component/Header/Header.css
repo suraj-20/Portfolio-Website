@@ -19,7 +19,7 @@
     font-size: 1.5rem;
     font-weight: 900;
     letter-spacing: 0.2rem;
-    color: rgb(94, 92, 92);
+    color: rgb(0, 0, 78);
 }
 
 .header .name i {
@@ -41,7 +41,7 @@
 .navbar ul li a {
     margin-right: 2rem;
     font-weight: bold;
-    color: rgb(66, 65, 65);
+    color: rgb(21, 4, 91);
 }
 
 .navbar ul li a:hover {
@@ -147,5 +147,23 @@
         border-bottom-right-radius: 0.5rem;
         background-color: #ffffff;
         box-shadow: 0 5px 10px rgba(50, 53, 53, 0.5);
+    }
+}
+
+@media (min-width:768px) and (max-width:928px) {
+    .header .name {
+        margin-right: 1rem;
+        font-size: 1.4rem;
+        font-weight: 900;
+        letter-spacing: 0.2rem;
+        color: rgb(94, 92, 92);
+    }
+
+    .header .name i {
+        margin-right: 0.2rem;
+    }
+
+    .navbar ul li a {
+        margin-right: 1.5rem;
     }
 }

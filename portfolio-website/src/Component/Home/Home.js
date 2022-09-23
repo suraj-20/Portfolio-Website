@@ -1,5 +1,6 @@
 import React from "react";
 import './Home.css'
+import About from "../About/About";
 
 function Home() {
     return (
@@ -13,7 +14,7 @@ function Home() {
                         I'm <span>Suraj</span>
                     </h2>
                     <p>I am a <span>Web Developer.</span></p>
-                    <a href="#" className="about-btn"><span>About Me</span> <i class="fa-solid fa-circle-arrow-down"></i></a>
+                    <a href="#about" className="about-btn"><span>About Me</span> <i class="fa-solid fa-circle-arrow-down"></i></a>
                 </div>
 
                 <div className="social-icons">

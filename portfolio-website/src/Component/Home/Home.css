@@ -49,7 +49,7 @@
 }
 
 .content span:hover {
-    margin-right: 0.6rem;
+    margin-right: 0.3rem;
 }
 
 .social-icons {
@@ -125,7 +125,22 @@
 }
 
 
+@media (max-width:1290px) {
+
+    .hero {
+        position: absolute;
+        top: 10rem;
+        right: 3rem;
+        flex: 1 1 40rem;
+        z-index: 1;
+        border-radius: 50rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+}
+
+
 @media (max-width:1024px) {
+
     .content {
         position: absolute;
         top: 11rem;
@@ -175,11 +190,39 @@
         transition: 4s;
         transform: rotate(360deg);
     }
+
+    .social-icons {
+        position: absolute;
+        top: 29rem;
+        left: 3rem;
+        display: inline-flex;
+    }
+
+    .icons .linkedin-icon,
+    .icons .github-icon,
+    .icons .twitter-icon,
+    .icons .insta-icon,
+    .icons .facebook-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1.3rem;
+        height: 3.5rem;
+        width: 3.5rem;
+        background-color: #000;
+        border-radius: 2rem;
+    }
+
+    .icons ul li a i {
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
 }
 
 
-
 @media (max-width:850px) {
+
     .hero {
         height: 18rem;
         width: 18rem;
@@ -190,5 +233,185 @@
         z-index: 1;
         border-radius: 50rem;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+}
+
+
+@media (max-width:768px) {
+
+    .content h2 {
+        font-size: 2.8rem;
+        letter-spacing: 0rem;
+        word-spacing: 0.5rem;
+    }
+
+    .hero {
+        position: absolute;
+        top: 10rem;
+        right: 1rem;
+    }
+}
+
+
+@media (max-width:688px) {
+
+    .home {
+        height: 125vh;
+    }
+
+    .content {
+        position: absolute;
+        top: 6rem;
+        left: 3rem;
+    }
+
+    .hero {
+        height: 18rem;
+        width: 18rem;
+        position: absolute;
+        top: 30rem;
+        right: 12rem;
+        flex: 1 1 40rem;
+        z-index: 1;
+        border-radius: 50rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .home .bg-image {
+        height: 125%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .social-icons {
+        position: absolute;
+        top: 24rem;
+        left: 3rem;
+        display: inline-flex;
+    }
+}
+
+
+@media (max-width:570px) {
+
+    .hero {
+        position: absolute;
+        top: 30rem;
+        right: 8rem;
+    }
+}
+
+
+@media (max-width:426px) {
+
+    .hero {
+        height: 18rem;
+        width: 18rem;
+        position: absolute;
+        top: 30rem;
+        right: 4rem;
+    }
+
+    .icons .linkedin-icon,
+    .icons .github-icon,
+    .icons .twitter-icon,
+    .icons .insta-icon,
+    .icons .facebook-icon {
+        margin-right: 0.8rem;
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    .hero:hover {
+        width: 19rem;
+        height: 19rem;
+        transition: 4s;
+        transform: rotate(360deg);
+    }
+}
+
+
+@media (max-width:383px) {
+
+    .home .bg-image {
+        height: 120%;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .content h2 {
+        font-size: 2.5rem;
+        letter-spacing: 0rem;
+        word-spacing: 0rem;
+    }
+
+    .content p {
+        font-size: 1.5rem;
+        margin: 0.7rem 0 2rem 0;
+        font-weight: 600;
+        word-spacing: 0rem;
+        letter-spacing: 0rem;
+    }
+
+    .social-icons {
+        position: absolute;
+        top: 23rem;
+        left: 3rem;
+    }
+
+    .icons .linkedin-icon,
+    .icons .github-icon,
+    .icons .twitter-icon,
+    .icons .insta-icon,
+    .icons .facebook-icon {
+        margin-right: 0.5rem;
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .hero {
+        position: absolute;
+        top: 29rem;
+        right: 2.5rem;
+    }
+}
+
+
+@media (max-width:321px) {
+
+    .content h2 {
+        font-size: 2.2rem;
+        letter-spacing: 0rem;
+        word-spacing: 0rem;
+    }
+
+    .content p {
+        font-size: 1.3rem;
+        margin: 0.7rem 0 2rem 0;
+        font-weight: 600;
+        word-spacing: 0rem;
+        letter-spacing: 0rem;
+    }
+
+    .social-icons {
+        position: absolute;
+        top: 21rem;
+        left: 3rem;
+    }
+
+    .icons .linkedin-icon,
+    .icons .github-icon,
+    .icons .twitter-icon,
+    .icons .insta-icon,
+    .icons .facebook-icon {
+        margin-right: 0.5rem;
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .hero {
+        position: absolute;
+        top: 26rem;
+        right: 1rem;
     }
 }

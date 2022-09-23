@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../Header/Header.css'
-import Home from '../Home/Home';
 
 function Header() {
 
@@ -38,7 +37,6 @@ function Header() {
                     </div>
                 </div>
             </div>
-            <Home />
         </>
     )
 }
