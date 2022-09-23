@@ -63,7 +63,11 @@
     display: inline-flex;
 }
 
-.icons .icon {
+.icons .linkedin-icon,
+.icons .github-icon,
+.icons .twitter-icon,
+.icons .insta-icon,
+.icons .facebook-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,9 +82,113 @@
     font-size: 1.5rem;
     color: #fff;
 }
-/* 
-.icons:hover {
-    color: #fff;
-    background-color: #0685da;
-} */
 
+.icons .linkedin-icon:hover {
+    background-color: #007bb6;
+}
+
+.icons .github-icon:hover {
+    background-color: #0e0e0e;
+}
+
+.icons .twitter-icon:hover {
+    background-color: #00aced;
+}
+
+.icons .insta-icon:hover {
+    background-color: #d406c3;
+}
+
+.icons .facebook-icon:hover {
+    background-color: #052ea7;
+}
+
+.hero {
+    background-image: url("../../Assets//hero.png");
+    background-size: cover;
+    height: 25rem;
+    width: 25rem;
+    position: absolute;
+    top: 10rem;
+    right: 15.5rem;
+    flex: 1 1 40rem;
+    z-index: 1;
+    border-radius: 50rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hero:hover {
+    width: 28rem;
+    height: 28rem;
+    transition: 4s;
+    transform: rotate(360deg);
+}
+
+
+@media (max-width:1024px) {
+    .content {
+        position: absolute;
+        top: 11rem;
+        left: 3rem;
+    }
+
+    .content h2 {
+        font-size: 2.8rem;
+        letter-spacing: 0rem;
+        word-spacing: 0.5rem;
+    }
+
+    .content p {
+        font-size: 1.8rem;
+        margin: 1rem 0 1.5rem 0;
+        font-weight: 600;
+        word-spacing: 0.1rem;
+        letter-spacing: 0rem;
+    }
+
+    .content .about-btn {
+        padding: 0.7rem 1.5rem;
+        border-radius: 2rem;
+        background-color: #010f8b;
+        color: #fff;
+    }
+
+    .content span:hover {
+        margin-right: 0.6rem;
+    }
+
+    .hero {
+        height: 18rem;
+        width: 18rem;
+        position: absolute;
+        top: 10rem;
+        right: 6rem;
+        flex: 1 1 40rem;
+        z-index: 1;
+        border-radius: 50rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .hero:hover {
+        width: 20rem;
+        height: 20rem;
+        transition: 4s;
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@media (max-width:850px) {
+    .hero {
+        height: 18rem;
+        width: 18rem;
+        position: absolute;
+        top: 10rem;
+        right: 3rem;
+        flex: 1 1 40rem;
+        z-index: 1;
+        border-radius: 50rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+}
