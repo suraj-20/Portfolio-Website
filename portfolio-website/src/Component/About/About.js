@@ -19,7 +19,7 @@ function About() {
                         <span>Web Developer</span>
                         <p>I am a frontend developer based in Gurgaon, India. I am persuing my undergraduation in information technology from Starex University. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites. Working for myself to improve my skills. Love to build Full-Stack clones.</p>
 
-                        <div className="contect">
+                        <div className="contect-details">
                             <p><span>Age : </span> 19</p>
                             <p><span>Phone : </span> +91 828-714-6841 </p>
                             <p><span>Email : </span> kumarsuraj54057@gmail.com</p>

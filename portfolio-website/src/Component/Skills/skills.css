@@ -1,0 +1,132 @@
+.skills {
+    height: 100vh;
+    background: linear-gradient(to bottom, #57059e, #4a00e0);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills h1 i {
+    position: relative;
+    top: 0.1rem;
+}
+
+.skills h1 {
+    position: relative;
+    top: -7.5rem;
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.skills h1 span {
+    margin-left: 0.9rem;
+    color: #fff707;
+}
+
+.skills .main-container {
+    background: rgba(0, 0, 22, 0.5);
+    width: 80%;
+    color: #fff;
+    margin-top: rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skills .main-container .item-container {
+    background: #000;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0rem 0.5rem 0rem;
+}
+
+.img-1 {
+    background: url("../../Assets/ReactJS.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 5rem;
+    width: 5rem;
+}
+
+.img-2 {
+    background: url("../../Assets/html5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 5rem;
+    width: 5rem;
+}
+
+.img-3 {
+    background: url("../../Assets/CSS3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 5rem;
+    width: 5rem;
+}
+
+.img-4 {
+    background: url("../../Assets/JS.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 5rem;
+    width: 5rem;
+}
+
+.img-5 {
+    background: url("../../Assets/Bootstrap.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 5rem;
+    width: 5rem;
+}
+
+.img-6 {
+    background: url("../../Assets//hero.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 5rem;
+    width: 5rem;
+}
+
+
+@media (max-width:769px) {
+    .skills h1 {
+        position: relative;
+        top: -2rem;
+        font-size: 2.4rem;
+        color: #fff;
+    }
+}
+
+@media (max-width:679px) {
+    .skills {
+        height: 120vh;
+    }
+}
+
+
+@media (max-width:479px) {
+    .skills h1{
+        font-size: 2rem;
+    }
+
+    .skills {
+        height: 215vh;
+    }
+}
+
+@media (max-width:368px) {
+    .skills {
+        height: 220vh;
+    }
+}

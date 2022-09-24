@@ -79,15 +79,15 @@
     font-weight: 600;
 }
 
-.bio .contect {
+.bio .contect-details {
     margin-top: 2rem;
 }
 
-.bio .contect p {
+.bio .contect-details p {
     margin-top: 0.5rem;
 }
 
-.bio .contect p span {
+.bio .contect-details p span {
     color: #011aff;
 }
 
@@ -150,7 +150,7 @@
         margin: 0rem;
     }
 
-    .bio .contect {
+    .bio .contect-details {
         margin-top: 1rem;
     }
 }
