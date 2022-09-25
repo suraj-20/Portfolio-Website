@@ -1,17 +1,18 @@
 .education {
     height: 100vh;
     background-color: #e5ecfb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .education h1 i {
     position: relative;
-    top: 0.5rem;
-    right: 0.5rem;
+    top: 0.2rem;
+    right: 0.2rem
 }
 
 .education h1 {
-    display: flex;
-    justify-content: center;
     position: relative;
     top: 5rem;
     font-size: 2.4rem;
@@ -20,4 +21,103 @@
 .education h1 span {
     margin-left: 0.9rem;
     color: #be0dea;
+}
+
+.education .main-container {
+    background: #fff;
+    height: 11rem;
+    width: 65%;
+    position: relative;
+    top: 10rem;
+    margin-bottom: 5rem;
+    border-radius: 0.5rem;
+    display: flex;
+}
+
+.main-container .cllg-image {
+    background: url("../../Assets//college.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    width: 20rem;
+    height: 11rem;
+}
+
+.main-container .school-image {
+    background: url("../../Assets/School.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    width: 20rem;
+    height: 11rem;
+}
+
+.main-container .details {
+    margin: 1.2rem 2rem 1rem 3rem;
+}
+
+.details h2 {
+    color: #02177d;
+    word-spacing: 0.2rem;
+}
+
+.details h4 {
+    margin-top: 0.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.details h3 {
+    margin-top: 0.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #128b2bc9;
+}
+
+@media (max-width:769px) {
+    .education {
+        height: 155vh;
+    }
+
+    .education h1 {
+        top: 1rem;
+    }
+
+    .education .main-container {
+        top: 3rem;
+        height: 25rem;
+        margin-bottom: 2rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .main-container .cllg-image {
+        width: auto;
+        height: 15rem;
+        border-bottom-left-radius: 0rem;
+        border-start-end-radius: 0.5rem;
+    }
+
+    .main-container .school-image {
+        width: auto;
+        height: 15rem;
+        border-bottom-left-radius: 0rem;
+        border-start-end-radius: 0.5rem;
+    }
+
+    .main-container .details {
+        margin: 1.5rem 0 1.5rem 0;
+    }
+}
+
+@media (max-width:441px) {
+    .details h2 {
+        font-size: 1.2rem;
+    }
+
+    .details h3 {
+        font-size: 1.3rem;
+    }
 }

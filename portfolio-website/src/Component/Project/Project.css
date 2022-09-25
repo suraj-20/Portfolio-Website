@@ -1,6 +1,7 @@
 .projects {
-    height: 100vh;
+    height: 115vh;
     background: linear-gradient(to bottom, #000031, #00002c);
+    padding: 2rem 9%;
 }
 
 .projects h1 i {
@@ -14,7 +15,131 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 5rem;
+    top: 1.5rem;
     font-size: 2.4rem;
+    padding: 1rem;
     color: #ffb302;
+}
+
+.projects .projects-container {
+    height: fit-content;
+    margin: 2rem;
+    padding: 0.3rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.projects-container .project-container {
+    background-color: #000031;
+    height: 19rem;
+    width: 23.87rem;
+    
+}
+
+.project-1 {
+    background: url('../../Assets/Project\ 1.jpeg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+}
+
+.project-2 {
+    background: url('../../Assets/Project\ 2.png');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+}
+
+.project-3 {
+    background: url('../../Assets/Project\ 3.jpeg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+}
+
+.project-4 {
+    background: url('../../Assets/Project\ 4.png');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+}
+
+.project-5 {
+    background: url('../../Assets/Project\ 5.png');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+}
+
+.project-6 {
+    background: url('../../Assets/Project\ 6.jpeg.png');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+}
+
+.project-name {
+    text-align: center;
+    background-color: #ffb302;
+    color: #00002c;
+    position: relative;
+    top: 17rem;
+    font-size: 1.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+@media (max-width:1440px) {
+    .projects {
+        height: 140vh;
+    }
+
+    .projects h1 {
+        top: 0rem;
+        padding: 0rem;
+    }
+
+    .projects .projects-container {
+        margin: 1rem;
+        justify-content: center
+    }
+}
+
+@media (max-width:789px) {
+    .projects {
+        height: 320vh;
+    }
+
+    .projects h1 {
+        padding: 0rem;
+        top: -1rem;
+    }
+
+    .projects .projects-container {
+        justify-content: center;
+        margin-top: 0rem;
+    }
+
+    .projects-container .project-container {
+        width: 34rem;
+    }
 }
