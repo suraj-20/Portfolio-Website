@@ -1,6 +1,6 @@
 import './App.css';
 import About from './Component/About/About';
-import Contect from './Component/Contact/Contact';
+import Contact from './Component/Contact/Contact';
 import Education from './Component/Education/Education';
 import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
@@ -15,8 +15,8 @@ function App() {
       <About />
       <Skills />
       <Education />
-      {/* <Project />
-      <Contect /> */}
+      <Project />
+      <Contact />
     </div>
   );
 }
