@@ -43,7 +43,7 @@ function Skills() {
                         <div className="img">
                             <div className="img-6"></div>
                         </div>
-                        <span>Hero</span>
+                        <span>GitHub</span>
                     </div>
                 </div>
             </div>

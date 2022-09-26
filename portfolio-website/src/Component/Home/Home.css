@@ -278,7 +278,7 @@
     }
 
     .home .bg-image {
-        height: 125%;
+        height: 100%;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -286,7 +286,7 @@
     .social-icons {
         position: absolute;
         top: 24rem;
-        left: 3rem;
+        left: 2rem;
         display: inline-flex;
     }
 }
@@ -334,9 +334,9 @@
 @media (max-width:383px) {
 
     .home .bg-image {
-        height: 120%;
+        height: 100%;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
 
     .content h2 {

@@ -2,6 +2,7 @@ import './App.css';
 import About from './Component/About/About';
 import Contact from './Component/Contact/Contact';
 import Education from './Component/Education/Education';
+import Footer from './Component/Footer/footer';
 import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
 import Project from './Component/Project/Project';
@@ -17,6 +18,7 @@ function App() {
       <Education />
       <Project />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 .skills {
-    height: 100vh;
+    height: 75vh;
     background: linear-gradient(to bottom, #57059e, #4a00e0);
     display: flex;
     flex-direction: column;
@@ -37,7 +37,8 @@
 }
 
 .skills .main-container .item-container {
-    background: #000;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
+    background: rgba(0, 0, 22, 0.9);
     width: 10rem;
     height: 10rem;
     border-radius: 1rem;
@@ -91,15 +92,20 @@
 }
 
 .img-6 {
-    background: url("../../Assets//hero.png");
+    background: url("../../Assets/github.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 5rem;
     width: 5rem;
+    color: #fff;
 }
 
 
 @media (max-width:769px) {
+    .skills {
+        height: 90vh;
+    }
+
     .skills h1 {
         position: relative;
         top: -2rem;
@@ -108,16 +114,16 @@
     }
 }
 
-@media (max-width:679px) {
+@media (max-width:679.5px) {
     .skills {
         height: 120vh;
     }
 }
 
 
-@media (max-width:479px) {
+@media (max-width:479.5px) {
     .skills h1{
-        font-size: 2rem;
+        top: -3rem;
     }
 
     .skills {
@@ -125,8 +131,14 @@
     }
 }
 
-@media (max-width:368px) {
-    .skills {
-        height: 220vh;
+@media (max-width:426px) {
+    .skills h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:340px) {
+    .skills h1 {
+        font-size: 1.8rem;
     }
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import './Home.css'
-import About from "../About/About";
 
 function Home() {
     return (
@@ -20,16 +19,16 @@ function Home() {
                 <div className="social-icons">
                     <div className="icons">
                         <ul className="linkedin-icon">
-                            <li><a href="" className="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/suraj-47333521b/" target="_blank" className="linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
                         </ul>
                         <ul className="github-icon">
-                            <li><a href="" className="github"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="https://github.com/suraj-20" target="_blank" className="github"><i class="fa-brands fa-github"></i></a></li>
                         </ul>
                         <ul className="twitter-icon">
                             <li><a href="" className="twitter"><i class="fa-brands fa-twitter"></i></a></li>
                         </ul>
                         <ul className="insta-icon">
-                            <li><a href="" className="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.instagram.com/sura_j1_5/" target="_blank" className="instagram"><i class="fa-brands fa-instagram"></i></a></li>
                         </ul>
                         <ul className="facebook-icon">
                             <li><a href="" className="facebook"><i class="fa-brands fa-facebook"></i></a></li>

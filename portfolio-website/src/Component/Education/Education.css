@@ -19,7 +19,7 @@
 }
 
 .education h1 span {
-    margin-left: 0.9rem;
+    margin-left: 0.4rem;
     color: #be0dea;
 }
 
@@ -32,6 +32,7 @@
     margin-bottom: 5rem;
     border-radius: 0.5rem;
     display: flex;
+    box-shadow: 0.5rem 0.5rem 1rem rgb(0 0 0 / 20%);
 }
 
 .main-container .cllg-image {
@@ -113,6 +114,10 @@
 }
 
 @media (max-width:441px) {
+    .education h1 {
+        font-size: 2rem;
+    }
+
     .details h2 {
         font-size: 1.2rem;
     }

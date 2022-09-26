@@ -200,6 +200,14 @@ form .button-area {
         width: 100%;
         margin-right: 2rem;
     }
+
+    form .button-area {
+        width: 93%;
+    }
+
+    .button-area button {
+        width: 100%;
+    }
 }
 
 @media (max-width:426px) {
