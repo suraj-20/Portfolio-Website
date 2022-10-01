@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useRef } from "react";
 import './Contact.css';
+import emailjs from 'emailjs-com';
 
 function Contect() {
 
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_87i9vdi', 'template_03ah1vm', e.target, 'rlY-YE4GvwkqshyyU')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset();
+      };
+    
     return (
         <>
             <section className="contact" id="contact">
@@ -14,7 +29,7 @@ function Contect() {
                     </div>
 
 
-                    <form id="contact-form">
+                    <form id="contact-form" ref={form} onSubmit={sendEmail}>
 
                         <div class="form-group">
                             <div class="field">
