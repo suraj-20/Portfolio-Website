@@ -5,7 +5,7 @@ function Project() {
 
     return (
         <>
-            <div className="projects" id="projects">
+            <section className="projects" id="projects">
                 <h1><i class="fa-solid fa-tarp"></i> Projects</h1>
 
                 <div className="projects-container">
@@ -52,7 +52,7 @@ function Project() {
                         </a>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

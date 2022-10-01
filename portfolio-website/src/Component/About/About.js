@@ -6,7 +6,7 @@ function About() {
 
     return (
         <>
-            <div className="about" id="about">
+            <section className="about" id="about">
                 <h1><i class="fa-solid fa-user"></i> About <span>Me</span></h1>
 
                 <div className="about-container">
@@ -27,7 +27,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

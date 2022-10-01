@@ -5,7 +5,7 @@ function Education() {
 
     return (
         <>
-        <div className="education" id="education">
+        <section className="education" id="education">
             <h1><i class="fa-solid fa-graduation-cap"></i> My <span>Education</span></h1>
 
             <div className="main-container">
@@ -26,7 +26,7 @@ function Education() {
                     <h3>2019 - 2021 | Completed</h3>
                 </div>
             </div>
-        </div>
+        </section>
         </>
     )
 }

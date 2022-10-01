@@ -5,7 +5,7 @@ function Contect() {
 
     return (
         <>
-            <div className="contact" id="contact">
+            <section className="contact" id="contact">
                 <h1><i className="fa fa-headset"></i>Get In <span>Touch</span></h1>
 
                 <div className="contact-container">
@@ -40,7 +40,7 @@ function Contect() {
                         </div>
                     </form>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

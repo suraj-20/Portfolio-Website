@@ -1,5 +1,6 @@
 .skills {
     height: 75vh;
+    padding: 0rem 1rem;
     background: linear-gradient(to bottom, #57059e, #4a00e0);
     display: flex;
     flex-direction: column;
@@ -127,17 +128,32 @@
     }
 
     .skills {
-        height: 215vh;
+        height: 205vh;
     }
 }
 
 @media (max-width:426px) {
+    .skills {
+        height: 190vh;
+    }
+
     .skills h1 {
         font-size: 2rem;
+        top: -2.5rem;
+    }
+
+    .skills .main-container {
+        padding: 1rem 2rem;
+        margin-top: -1rem;
+        width: 70%;
+    }
+
+    .skills .main-container .item-container {
+        margin-bottom: 1rem;
     }
 }
 
-@media (max-width:340px) {
+@media (max-width:350px) {
     .skills h1 {
         font-size: 1.8rem;
     }

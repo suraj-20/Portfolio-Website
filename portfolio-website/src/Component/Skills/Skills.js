@@ -5,7 +5,7 @@ function Skills() {
 
     return (
         <>
-            <div className="skills" id="skills">
+            <section className="skills" id="skills">
                 <h1><i class="fa-solid fa-laptop-code"></i> Skills & <span>Abilites </span></h1>
 
                 <div className="main-container">
@@ -46,7 +46,7 @@ function Skills() {
                         <span>GitHub</span>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }

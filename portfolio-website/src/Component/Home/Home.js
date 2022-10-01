@@ -4,7 +4,7 @@ import './Home.css'
 function Home() {
     return (
         <>
-            <div className="home" id="home">
+            <section className="home" id="home">
                 <div className="bg-image"></div>
 
                 <div className="content">
@@ -38,7 +38,7 @@ function Home() {
 
                 <div className="hero" >
                 </div>
-            </div>
+            </section>
         </>
     )
 }
