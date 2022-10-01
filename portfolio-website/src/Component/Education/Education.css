@@ -114,8 +114,17 @@
 }
 
 @media (max-width:441px) {
+    .education {
+        height: 145vh;
+    }
+
     .education h1 {
         font-size: 2rem;
+        top: 0rem;
+    }
+
+    .education .main-container {
+        top: 1rem;
     }
 
     .details h2 {
@@ -124,5 +133,11 @@
 
     .details h3 {
         font-size: 1.3rem;
+    }
+}
+
+@media (max-width:350px) {
+    .education h1 {
+        font-size: 1.8rem;
     }
 }

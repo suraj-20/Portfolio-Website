@@ -6,16 +6,12 @@
 
 .projects h1 i {
     position: relative;
-    top: 0.5rem;
-    right: 0.5rem;
+    top: 0.1rem;
     color: #fff;
 }
 
 .projects h1 {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 1.5rem;
+    text-align: center;
     font-size: 2.4rem;
     padding: 1rem;
     color: #ffb302;
@@ -136,10 +132,20 @@
 
     .projects .projects-container {
         justify-content: center;
-        margin-top: 0rem;
     }
 
     .projects-container .project-container {
         width: 34rem;
+    }
+}
+
+@media (max-width:426px) {
+    .projects {
+        padding: 0rem 9%;
+        height: 315vh;
+    }
+
+    .projects h1 {
+        font-size: 2rem;
     }
 }

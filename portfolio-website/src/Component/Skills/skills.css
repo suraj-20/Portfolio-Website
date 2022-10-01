@@ -115,20 +115,22 @@
     }
 }
 
-@media (max-width:679.5px) {
+@media (max-width:711.5px) {
     .skills {
         height: 120vh;
+    }
+}
+
+@media (max-width:511.5px) {
+    .skills {
+        height: 210vh;
     }
 }
 
 
 @media (max-width:479.5px) {
     .skills h1{
-        top: -3rem;
-    }
-
-    .skills {
-        height: 205vh;
+        top: -2rem;
     }
 }
 

@@ -211,7 +211,22 @@ form .button-area {
 }
 
 @media (max-width:426px) {
+    .contact {
+        height: 90vh;
+    }
+
     .contact h1 {
         font-size: 2rem;
+        padding: 0rem;
+    }
+
+    .contact .contact-container {
+        margin: 1rem 0rem;
+    }
+}
+
+@media (max-width:350px) {
+    .contact h1 {
+        font-size: 1.8rem;
     }
 }

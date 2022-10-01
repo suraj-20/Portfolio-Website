@@ -17,10 +17,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-section {
-  min-height: 100vh;
-}
-
 ::-webkit-scrollbar {
   width: 10px;
 }
